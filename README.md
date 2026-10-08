@@ -1,5 +1,15 @@
-## Hi there 👋
+## Hellooo
 
+##Contributions
+
+fix(hunting): repair entity mappings in hunt_LOLBins.yaml https://github.com/Azure/Azure-Sentinel/pull/15144
+fix: Suspicious Kerberos Ticket Request (Scriptblock + CLI) - remove .GetRequest() requirement https://github.com/SigmaHQ/sigma/pull/6296
+feat: add T1546.005-5 Trap DEBUG atomic test https://github.com/redcanaryco/atomic-red-team/pull/3338
+fix: UFW Disable Attempt - Fix broken ufw-init detection and broaden UFW disable coverage https://github.com/SigmaHQ/sigma/pull/5978
+Enhance T1027/T1027.013 obfuscation tests: character array & password-protected ZIP https://github.com/redcanaryco/atomic-red-team/pull/3279
+Enhance T1496(Resource Hijacking): Add Windows CPU Load Simulation https://github.com/redcanaryco/atomic-red-team/pull/3275
+fix: prevent file descriptor leak in acquireOnboardLock https://github.com/NVIDIA/NemoClaw/pull/1052
+fix(preflight): auto-create swap on low-memory VMs to prevent OOM during sandbox build https://github.com/NVIDIA/NemoClaw/pull/419
 <!--
 **vl43den/vl43den** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
