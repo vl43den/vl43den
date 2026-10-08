@@ -1,26 +1,21 @@
-## Hellooo
+## Hi!
 
-##Contributions
+Detection engineering and security research: Sigma rules, Atomic Red Team tests, Sentinel hunting queries.
 
-fix(hunting): repair entity mappings in hunt_LOLBins.yaml https://github.com/Azure/Azure-Sentinel/pull/15144
-fix: Suspicious Kerberos Ticket Request (Scriptblock + CLI) - remove .GetRequest() requirement https://github.com/SigmaHQ/sigma/pull/6296
-feat: add T1546.005-5 Trap DEBUG atomic test https://github.com/redcanaryco/atomic-red-team/pull/3338
-fix: UFW Disable Attempt - Fix broken ufw-init detection and broaden UFW disable coverage https://github.com/SigmaHQ/sigma/pull/5978
-Enhance T1027/T1027.013 obfuscation tests: character array & password-protected ZIP https://github.com/redcanaryco/atomic-red-team/pull/3279
-Enhance T1496(Resource Hijacking): Add Windows CPU Load Simulation https://github.com/redcanaryco/atomic-red-team/pull/3275
-fix: prevent file descriptor leak in acquireOnboardLock https://github.com/NVIDIA/NemoClaw/pull/1052
-fix(preflight): auto-create swap on low-memory VMs to prevent OOM during sandbox build https://github.com/NVIDIA/NemoClaw/pull/419
-<!--
-**vl43den/vl43den** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Contributions
 
-Here are some ideas to get you started:
+**SigmaHQ/sigma**
+- Suspicious Kerberos Ticket Request (ScriptBlock + CLI): removed `.GetRequest()` requirement ([#6296](https://github.com/SigmaHQ/sigma/pull/6296))
+- UFW Disable Attempt: fixed broken `ufw-init` detection and broadened UFW disable coverage ([#5978](https://github.com/SigmaHQ/sigma/pull/5978))
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**redcanaryco/atomic-red-team**
+- T1546.005: added Trap DEBUG atomic test ([#3338](https://github.com/redcanaryco/atomic-red-team/pull/3338))
+- T1027/T1027.013: added character array and password-protected ZIP obfuscation tests ([#3279](https://github.com/redcanaryco/atomic-red-team/pull/3279))
+- T1496 (Resource Hijacking): added Windows CPU load simulation ([#3275](https://github.com/redcanaryco/atomic-red-team/pull/3275))
+
+**Azure/Azure-Sentinel**
+- hunt_LOLBins.yaml: repaired entity mappings ([#15144](https://github.com/Azure/Azure-Sentinel/pull/15144))
+
+**NVIDIA/NemoClaw**
+- Fixed file descriptor leak in `acquireOnboardLock` ([#1052](https://github.com/NVIDIA/NemoClaw/pull/1052))
+- Preflight: auto-create swap on low-memory VMs to prevent OOM during sandbox build ([#419](https://github.com/NVIDIA/NemoClaw/pull/419))
