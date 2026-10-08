@@ -1,6 +1,6 @@
 ## Hi!
 
-Detection engineering and security research: Sigma rules, Atomic Red Team tests, Sentinel hunting queries.
+Detection engineering and security research: Sigma rules, Atomic Red Team tests, Sentinel hunting queries + ...
 
 ## Contributions
 
